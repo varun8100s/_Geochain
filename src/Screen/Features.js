@@ -4,11 +4,12 @@ const Features = () => {
   return (
     <>
       <div>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-          dolorem, cupiditate nihil expedita temporibus quod, placeat non cumque
-          officiis voluptates explicabo odio autem veniam tempora obcaecati eius
-          quaerat esse saepe. Tenetur, voluptatum.
+      
+        <p className="container p-5 text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+          ipsam placeat exercitationem blanditiis ea dolorum culpa unde,
+          veritatis nam dicta incidunt eveniet reprehenderit inventore repellat
+          similique commodi architecto eaque fugiat cumque voluptatum!
         </p>
       </div>
     </>
@@ -16,3 +17,4 @@ const Features = () => {
 };
 
 export default Features;
+

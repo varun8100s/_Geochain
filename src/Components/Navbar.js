@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../Assets/Images/logo.jpeg"
-const Navbar = () => {
+
+const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-            <img src={logo} alt="logo" className="img-fluid logo"/>
+            {/*<img src={logo} alt="logo" className="img-fluid logo"/>*/}
           <NavLink className="navbar-brand" to="/">
             Ethereum{" "}
           </NavLink>
@@ -47,4 +47,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
